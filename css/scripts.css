@@ -1,3 +1,28 @@
 img {
     width: 300px;
 }
+
+body {
+    text-align: center;
+}
+
+ul,
+ol {
+    display: inline-block;
+}
+
+#travelpage,
+#act,
+#index,
+#contact,
+#accom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+    z-index: -1;
+}
